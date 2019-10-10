@@ -1,0 +1,14 @@
+@import './variables.scss';
+@import './main.scss';
+
+/* Components */
+@import './comps/Nav.scss';
+@import './comps/Card.scss';
+@import './comps/Container.scss';
+@import './comps/Footer.scss';
+@import './comps/Header.scss';
+@import './comps/About.scss';
+
+/* Pages */
+@import './pages/Home.scss';
+@import './pages/Item.scss';

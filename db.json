@@ -1,0 +1,84 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Lorem ipsum",
+      "category": "digital",
+      "image": "https://source.unsplash.com/2l5U8g4f8hQ",
+      "date": "17.11.1995",
+      "horizontal": false
+    },
+    {
+      "id": 2,
+      "title": "Lorem ipsum",
+      "category": "digital",
+      "image": "https://source.unsplash.com/s3tPywNsLSo",
+      "date": "17.11.1995",
+      "horizontal": false
+    },
+    {
+      "id": 3,
+      "title": "Lorem ipsum",
+      "category": "digital",
+      "image": "https://source.unsplash.com/BOa5K-SWmG8",
+      "date": "17.11.1995",
+      "horizontal": false
+    },
+    {
+      "id": 4,
+      "title": "Lorem ipsum",
+      "category": "digital",
+      "image": "https://source.unsplash.com/1RxmiM6oAec",
+      "date": "17.11.1995",
+      "horizontal": false
+    },
+    {
+      "id": 5,
+      "title": "Lorem ipsum",
+      "category": "digital",
+      "image": "https://source.unsplash.com/fLNViLrp-b8",
+      "date": "17.11.1995",
+      "horizontal": false
+    },
+    {
+      "id": 6,
+      "title": "Lorem ipsum",
+      "category": "digital",
+      "image": "https://source.unsplash.com/Zqh5a3gB29o",
+      "date": "17.11.1995",
+      "horizontal": false
+    },
+    {
+      "id": 7,
+      "title": "Lorem ipsum",
+      "category": "digital",
+      "image": "https://source.unsplash.com/Mxi0EdBIpZk",
+      "date": "17.11.1995",
+      "horizontal": false
+    },
+    {
+      "id": 8,
+      "title": "Lorem ipsum",
+      "category": "digital",
+      "image": "https://source.unsplash.com/sWTl7oIRZb8",
+      "date": "17.11.1995",
+      "horizontal": false
+    },
+    {
+      "id": 9,
+      "title": "Lorem ipsum",
+      "category": "digital",
+      "image": "https://source.unsplash.com/ehDB0IiqH10",
+      "date": "17.11.1995",
+      "horizontal": false
+    },
+    {
+      "id": 10,
+      "title": "Lorem ipsum",
+      "category": "digital",
+      "image": "https://source.unsplash.com/cXkrqY2wFyc",
+      "date": "17.11.1995",
+      "horizontal": true
+    }
+  ]
+}

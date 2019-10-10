@@ -1,0 +1,6 @@
+.Container {
+    max-width: $breakpoint;
+    padding: 0 $spacing*3;
+    margin: $spacing*2 auto;
+    flex: 1 0 auto;
+}
