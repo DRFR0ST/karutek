@@ -7,7 +7,7 @@ const About = () => {
 
     React.useEffect(() => {
         window.addEventListener("scroll", () => {
-            var st = window.scrollY
+            var st = window.scrollY - 100;
             const limit = window.innerHeight + (contentRef.current ? contentRef.current.clientHeight - 150 : 200);
 
             /* avoid unnecessary call to jQuery function */
