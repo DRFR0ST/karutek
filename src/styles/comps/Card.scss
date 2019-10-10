@@ -3,18 +3,41 @@
     position: relative;
     border-radius: 20px;
     margin-bottom: 3rem;
-
+    
     &:nth-child(2n) {
         align-self: flex-end;
         justify-self: flex-end;
     }
+    
+    &:hover {
+        &.left-align {
+            .Card__thumbnail img {
+                //margin-right: -20px;
+                //margin-left: initial !important;
+            }
 
+            .Card__content {
+                margin-left: initial !important;
+                margin-right: 10px;
+            }
+        }
+        .Card__thumbnail img {
+            //margin-left: -20px;
+            //margin-top: -10px;
+        }
+        
+        .Card__content {
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+    }
+    
     &.left-align {
         .Card__content {
             right: 25px;
             left: initial;
         }
-
+        
         .Card__title {
             right: initial;
             left: 10px;
@@ -24,16 +47,19 @@
     &__thumbnail {
         position: relative;
         z-index: 2;
-
+        
         & img {
             max-width: 100%;
             width: 400px;
             height: auto;
             border-radius: 10px;
+            transition: margin 255ms ease;
+            min-height: 300px;
         }
     }
-
+    
     &__content {
+        transition: margin 255ms ease;
         max-width: 100%;
         z-index: 1;
         position: absolute;
