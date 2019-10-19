@@ -6,7 +6,10 @@ export default {
       "category": "digital",
       "image": "https://i.imgur.com/URh64vJ.png",
       "date": "17.11.1995",
-      "horizontal": false
+      "horizontal": false,
+      "made_with": [
+        "adobe_photoshop",
+      ]
     },
     {
       "id": 2,
@@ -14,7 +17,10 @@ export default {
       "category": "digital",
       "image": "https://i.imgur.com/oY07uUF.png",
       "date": "17.11.1995",
-      "horizontal": true
+      "horizontal": true,
+      "made_with": [
+        "adobe_illustrator",
+      ]
     },
     {
       "id": 3,
@@ -22,7 +28,11 @@ export default {
       "category": "digital",
       "image": "https://i.imgur.com/O2LQbhQ.png",
       "date": "17.11.1995",
-      "horizontal": false
+      "horizontal": false,
+      "made_with": [
+        "adobe_photoshop",
+        "adobe_illustrator"
+      ]
     },
     {
       "id": 4,
@@ -30,7 +40,11 @@ export default {
       "category": "digital",
       "image": "https://i.imgur.com/XtNqCjT.png",
       "date": "17.11.1995",
-      "horizontal": true
+      "horizontal": true,
+      "made_with": [
+        "adobe_photoshop",
+        "adobe_illustrator"
+      ]
     },
     {
       "id": 5,
@@ -38,7 +52,10 @@ export default {
       "category": "digital",
       "image": "https://i.imgur.com/Ptz0F16.png",
       "date": "17.11.1995",
-      "horizontal": false
+      "horizontal": false,
+      "made_with": [
+        "adobe_photoshop"
+      ]
     },
     {
       "id": 6,
@@ -46,7 +63,10 @@ export default {
       "category": "digital",
       "image": "https://i.imgur.com/BcOJDqL.png",
       "date": "17.11.1995",
-      "horizontal": false
+      "horizontal": false,
+      "made_with": [
+        "cinema_4d"
+      ]
     },
     {
       "id": 7,

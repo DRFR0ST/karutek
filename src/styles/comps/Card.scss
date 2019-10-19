@@ -1,74 +1,74 @@
 .Card {
-    height: 40%;
+    height: auto;
+    width: 100%;
     position: relative;
-    border-radius: 20px;
-    margin-bottom: 3rem;
+    background: #f183c3;
+    display: flex;
+    margin: 0 $spacing 0 0;
+    margin-bottom: $spacing*6;
+    border-radius: 12px;
+
+    float: left;
+    align-items: center;
+    box-sizing: border-box;
     
+    &.horizontal {
+        .Card__thumbnail {
+            width: auto;
+            height: 340px;
+        }
+    }
+
+    padding-right: $spacing*2;
+    padding-top: $spacing;
+    padding-bottom: $spacing;
+
     &:nth-child(2n) {
-        align-self: flex-end;
-        justify-self: flex-end;
-    }
-    
-    &:hover {
-        &.left-align {
-            .Card__thumbnail img {
-                //margin-right: -20px;
-                //margin-left: initial !important;
-            }
+        padding-left: $spacing*2;
+        padding-right: initial;
 
-            .Card__content {
-                margin-left: initial !important;
-                margin-right: 10px;
-            }
+        float: right;
+        flex-direction: row-reverse;
+
+        .Card__made-with {
+            flex-direction: row-reverse;
         }
-        .Card__thumbnail img {
-            //margin-left: -20px;
-            //margin-top: -10px;
-        }
-        
-        .Card__content {
-            margin-left: 10px;
-            margin-top: 5px;
-        }
-    }
-    
-    &.left-align {
-        .Card__content {
-            right: 25px;
+
+        .Card__thumbnail {
+            right: -$spacing*3;
             left: initial;
+            box-shadow: -7px 14px 28px rgba(0,0,0,0.25), 5px 10px 10px rgba(0,0,0,0.22);
+
         }
-        
-        .Card__title {
-            right: initial;
-            left: 10px;
+
+        .Card__content {
+            //align-self: flex-end;
+            justify-self: flex-end;
+            margin-left: initial;
+            margin-right: $spacing;
         }
     }
 
-    &__thumbnail {
-        position: relative;
-        z-index: 2;
+            &__thumbnail {
+                box-shadow: 7px 14px 28px rgba(0,0,0,0.25), 5px 10px 10px rgba(0,0,0,0.22);
+                top: -$spacing*3;
+                left: -$spacing*3;
+                position: relative;
+                z-index:2;
+                width: 425px;
+                height: auto;
+                border-radius: 24px;
+                transition: all 155ms ease;
+                max-width: 100%;
+                max-height: 100%;
+            }
+
         
-        & img {
-            max-width: 100%;
-            width: 400px;
-            height: auto;
-            border-radius: 10px;
-            transition: margin 255ms ease;
-            min-height: 300px;
-        }
-    }
     
     &__content {
-        transition: margin 255ms ease;
-        max-width: 100%;
-        z-index: 1;
-        position: absolute;
-        background: #ffb8e1;
-        width: 400px;
-        height: 100%;
-        top: 35px;
-        left: 25px;
-        border-radius: 10px;
+        color: #fff;
+        margin-left: $spacing;
+
     }
     
     &__kind {
@@ -76,14 +76,53 @@
     }
 
     &__title {
-        position: absolute;
-        bottom: 5px;
-        right: 10px;
-        font-size: 20px;
-        margin: 0;
-        color: #fff;
+        margin-bottom: 0;
+        //font-family: 'Mansalva', cursive;
+    }
 
-        font-family: 'Mansalva', cursive;
+    &__category {
+        opacity: .45;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__made-with {
+        margin: $spacing*2 0;
+        display: flex;
+        flex-wrap: wrap;
+        background: rgba(21, 21, 21, 0.1);
+        border-radius: 64px;
+        padding: 0 $spacing*2;
+        align-self: flex-end;
+        justify-self: flex-end;
+        & img {
+            width: 34px;
+            height: 34px;
+            margin: $spacing*2 $spacing;
+            opacity: 0.8;
+            transition: all 155ms ease;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        &__thumbnail {
+            width: 87vw !important;
+            height: auto !important;
+            left: 0 !important;
+            right: 0 !important;
+        }
+
+        &__content {
+            padding: 0 $spacing;
+        }
     }
 }
 

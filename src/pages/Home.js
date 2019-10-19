@@ -10,27 +10,9 @@ const Home = () => {
     return <div className="Home">
         <Header />
         <About />
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <Container>
         <div className="Home__cards">
         {posts.map((e, i) => <Card key={e.id} {...e} leftAligned={Boolean(i%2 === 1)} featured={Boolean(i === 0)} />)}
         </div>
-        </Container>
         <Footer />
     </div>
 }
