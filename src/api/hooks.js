@@ -1,22 +1,14 @@
-import {useState, useEffect} from 'react';
-import { fetchPosts, fetchPost } from './client';
+import {useState} from 'react';
+import db from "../db.js";
 
 export const useItems = (total=10) => {
-    const [data, setData] = useState([]);
-
-    useEffect(() => {
-        fetchPosts().then(res => setData([...res].slice(0, total)))
-    }, [total]);
+    const [data, setData] = useState(db.posts);
 
     return [[...data], setData];
 }
 
 export const useItem = (id) => {
-    const [data, setData] = useState([]);
-
-    useEffect(() => {
-        fetchPost(id).then(res => setData(res.data))
-    }, [id]);
+    const [data, setData] = useState(db.posts.find(e => e.id === id));
 
     return [data, setData];
 }

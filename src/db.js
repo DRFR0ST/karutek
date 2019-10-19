@@ -1,4 +1,4 @@
-{
+export default {
   "posts": [
     {
       "id": 1,
