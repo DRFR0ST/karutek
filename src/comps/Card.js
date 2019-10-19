@@ -3,11 +3,10 @@ import { withRouter } from 'react-router-dom'
 import PropTypes from 'prop-types'
 
 import cx from 'classname'
-import moment from 'moment'
 
 const Card = ({ id, title, image, category, date, featured, horizontal, leftAligned, ...props }) => {
     
-    const handleClick = () => props.history.push(`/post/${id}`)
+    //const handleClick = () => props.history.push(`/post/${id}`)
     
     return <div className={cx("Card", {featured, horizontal, "left-align": leftAligned})}>
         <div className="Card__thumbnail">
