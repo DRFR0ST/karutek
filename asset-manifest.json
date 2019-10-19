@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5883c524.chunk.css",
+    "main.js": "/static/js/main.b88bdbe6.chunk.js",
+    "main.js.map": "/static/js/main.b88bdbe6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0ca1dedf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0ca1dedf.js.map",
+    "static/js/2.6a6a80ca.chunk.js": "/static/js/2.6a6a80ca.chunk.js",
+    "static/js/2.6a6a80ca.chunk.js.map": "/static/js/2.6a6a80ca.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.01ac5d23b8eb0628ea231096b8b0685a.js": "/precache-manifest.01ac5d23b8eb0628ea231096b8b0685a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5883c524.chunk.css.map": "/static/css/main.5883c524.chunk.css.map",
+    "static/media/index.scss": "/static/media/trainlingsrak.0357486f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ca1dedf.js",
+    "static/js/2.6a6a80ca.chunk.js",
+    "static/css/main.5883c524.chunk.css",
+    "static/js/main.b88bdbe6.chunk.js"
+  ]
+}
