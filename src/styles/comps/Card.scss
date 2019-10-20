@@ -2,7 +2,7 @@
     height: auto;
     width: 100%;
     position: relative;
-    background: #f183c3;
+    background: $primary;
     display: flex;
     margin: 0 $spacing 0 0;
     margin-bottom: $spacing*6;
@@ -77,6 +77,7 @@
 
     &__title {
         margin-bottom: 0;
+        text-transform: uppercase;
         //font-family: 'Mansalva', cursive;
     }
 
@@ -88,7 +89,7 @@
 
     &__made-with {
         margin: $spacing*2 0;
-        display: flex;
+        display: inline-flex;;
         flex-wrap: wrap;
         background: rgba(21, 21, 21, 0.1);
         border-radius: 64px;
@@ -122,6 +123,10 @@
 
         &__content {
             padding: 0 $spacing;
+        }
+
+        &__made-with {
+            justify-content: center;
         }
     }
 }
