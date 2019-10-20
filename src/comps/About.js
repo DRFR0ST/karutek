@@ -19,8 +19,8 @@ const About = () => {
         <div className="About__contact">
             <div className="About__contact--content">
                 <h1>Contact</h1>
-                <a href="tel:+48739902153"><FontAwesomeIcon icon={faEnvelope} style={{marginRight: "5px"}} /> +48 739 902 153</a>
-                <a href="mailto:karuutek@gmail.com"><FontAwesomeIcon icon={faPhone} style={{marginRight: "5px"}} /> karuutek@gmail.com</a>
+                <a href="tel:+48739902153"><FontAwesomeIcon icon={faPhone} style={{marginRight: "8px"}} /> +48 739 902 153</a>
+                <a href="mailto:karuutek@gmail.com"><FontAwesomeIcon icon={faEnvelope} style={{marginRight: "8px"}} /> karuutek@gmail.com</a>
             </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2433.721668996726!2d16.936704893343656!3d52.41172042740974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47045b4123b34733%3A0x35d063bb858dd1dc!2sMa%C5%82e%20Garbary!5e0!3m2!1sen!2spl!4v1571577734607!5m2!1sen!2spl" frameborder="0" allowfullscreen=""></iframe>
         </div>
