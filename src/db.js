@@ -87,7 +87,7 @@ export default {
     {
       "id": 7,
       "title": "VOGUE drawing",
-      "description": "Digital drawing made in photoshop using a graphic tablet. Made on the occasion of the birthday of a colleague who was the inspiration to create this drawing. it is not perfectly.",
+      "description": "Digital drawing made in photoshop using a graphic tablet. Made on the occasion of the birthday of a colleague who was the inspiration to create this drawing. it is not perfectly made, but it was a great opportunity to exercise your hand and it was also great entertainment.",
       "category": "digital",
       "image": "https://i.imgur.com/j63AFHk.png",
       "date": "17.11.1995",
