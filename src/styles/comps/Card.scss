@@ -66,10 +66,41 @@
         
     
     &__content {
-        color: #fff;
         margin-left: $spacing;
 
     }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    &__download {
+        width: 16px;
+        height: 16px;
+        padding: 16px;
+        background: rgba(21, 21, 21, 0.1);
+        border-radius: 100px;
+        transition: background 155ms ease;
+        position: relative;
+        cursor: pointer;
+
+        &:hover {
+            background: rgba(21, 21, 21, 0.2);
+        }
+        & a {
+            text-decoration: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            
+        }
+    }
+    
     
     &__kind {
         margin: 0;
