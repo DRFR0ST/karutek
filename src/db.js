@@ -61,7 +61,7 @@ export default {
       "title": "Physiomedica business card",
       "description": "Physiotherapy clinic business card design. Simple, clean, minimalistic. With the preservation of colors, a consistent logo and basic information to preserve the medical character.",
       "category": "digital",
-      "image": "https://i.imgur.com/Ptz0F16.png",
+      "image": "https://i.imgur.com/Lp5v5qk.png",
       "date": "17.11.1995",
       "horizontal": false,
       "color": "#ffc9e7",
